@@ -8,7 +8,8 @@
     <div class="panel panel-heading">Post a mesage</div>
     <div class="panel panel-body">
       <div class="input-group">
-        <textarea class="form-control custom-control" rows=3 style="resize:none">
+        <textarea class="form-control custom-control" rows=3 style="resize:none"
+        ng-model="main.message">
         </textarea>
         <br>
         <span class="input-button-addon btn btn-primary" ng-click="main.postMessage()">Post</span>
